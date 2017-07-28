@@ -1,0 +1,29 @@
+.songUl {
+  background-color: #0000ff;
+  width: 55%;
+  padding: 5%;
+  margin-left: 21%;
+  margin-top: 5%;
+}
+
+.contentContainer {
+  /*display: flex;*/
+  width: 95%;
+}
+
+.updateButton {
+  padding: 2%;
+  margin-top: 5%;
+}
+
+.submit {
+  margin-top: 14%;
+}
+
+.songData {
+  color: white;
+  font-weight: bold;
+  padding: 5%;
+  font-family: san-serif;
+
+}
