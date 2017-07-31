@@ -1,29 +1,38 @@
 .songUl {
-  background-color: #0000ff;
-  width: 55%;
   padding: 5%;
-  margin-left: 21%;
-  margin-top: 5%;
+  list-style: none;
+}
+.addToPlayList label {
+  margin-top: 9%;
 }
 
-.contentContainer {
-  /*display: flex;*/
-  width: 95%;
+.playListContainer {
+  width: 100%;
 }
 
 .updateButton {
-  padding: 2%;
-  margin-top: 5%;
+  width: 90%;
+  font-family: fantasy;
+  font-weight: bold;
+  height: 12%;
+  font-size: 2em;
 }
-
-.submit {
-  margin-top: 14%;
-}
-
 .songData {
-  color: white;
   font-weight: bold;
   padding: 5%;
-  font-family: san-serif;
+  margin-bottom: 5%;
+  font-family: fantasy;
+  border: 2px black solid;
+  width: 100%;
+  background-color:#222F58;
+  color:white;
+}
 
+.songsList {
+  height: 500px;
+  overflow: scroll;
+}
+
+.infoSubButton {
+  margin-top: 5%;
 }

@@ -1,4 +1,14 @@
+body {
+background-image: url(stage.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
 .App {
+  width: 100%;
+  font-family: fantasy;
   text-align: center;
 }
 
@@ -21,4 +31,9 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.contentContainer {
+  display: flex;
+  margin-top: 5%;
+
 }

@@ -1,19 +1,16 @@
 .formContainer {
-  background-color: #1a8cff;
-  font-family: san-serif;
-  /*padding: 4%;*/
+  width: 45%;
+  margin-top: -5%;
 }
 
 .addToPlayList {
-  color: #000080;
-  font-family: san-serif;
+  font-family: fantasy;
+  font-weight: bolder;
   font-size: 1.4em;
   padding: 5%;
 }
 
 .infoSubButton {
-  background-color: #000080;
-  color: white;
   display: inline;
   font-size: 1.4em;
   font-family: san-serif;

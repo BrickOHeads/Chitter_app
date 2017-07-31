@@ -22,7 +22,7 @@ componentDidMount(){
 }
 fetchData = (e) => {
     e.preventDefault();
-    fetch('https://tiny-lasagna-server.herokuapp.com/collections/playlisting').then(results => {
+    fetch("https://tiny-lasagna-server.herokuapp.com/collections/playlisting").then(results => {
       return results.json();
     }).then(data => {
       this.setState({songs: data});
@@ -41,7 +41,7 @@ render() {
   return (
   <div className="playListContainer">
     <button type="submit" className="updateButton" onClick={this.fetchData}>
-      Update List
+      Update
     </button>
   {listOfSongs}
    <PlayListItem songs={this.state.songs} />
